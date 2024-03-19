@@ -43,10 +43,11 @@ img {
 }
 
 div.container-a {
+  background-color: #e8f94e;
   width: 100px;
   float:left;
-  text-align: center;
-  min-width:25vw;
+  text-align: left;
+  min-width:20vw;
   margin-left: -5px;
 }
 
@@ -97,6 +98,7 @@ div.text {
 div.container-b {
   width: 100px;
   float: right;
-  text-align: left;
-  min-width:25vw;
+  background-color: #e8f94e;
+  text-align: right;
+  min-width:20vw;
 }
