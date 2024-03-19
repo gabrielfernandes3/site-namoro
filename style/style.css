@@ -37,8 +37,7 @@ h1 {
 }
 
 img {
-  width: 100px;
-  width: 100px;
+  width: 90px;
   border-radius: 10px;
   margin: 3px;
 }
@@ -53,7 +52,7 @@ div.container-a {
 
 div.text {
   background-color: rgba(255, 255, 255, 0.577);
-  width: 44%;
+  width: 40%;
   float: left;
   margin-left: 5px;
   margin-top: 5px;
@@ -69,7 +68,7 @@ div.text {
   text-align: center;
   font-size: 1.2em;
   text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.589);
-  width: 44%;
+  width: 40%;
   float: left;
   margin-top: 5px;
   margin-left: 5px;
