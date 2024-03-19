@@ -43,7 +43,6 @@ img {
 }
 
 div.container-a {
-  background-color: #e8f94e;
   width: 100px;
   float:left;
   text-align: left;
@@ -53,7 +52,7 @@ div.container-a {
 
 div.text {
   background-color: rgba(255, 255, 255, 0.577);
-  width: 40%;
+  width: 38%;
   float: left;
   margin-left: 5px;
   margin-top: 5px;
@@ -69,9 +68,9 @@ div.text {
   text-align: center;
   font-size: 1.2em;
   text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.589);
-  width: 40%;
-  float: left;
-  margin-top: 5px;
+  width: 100%;
+  float: inline-start;
+  margin: 10px;
   margin-left: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -98,7 +97,7 @@ div.text {
 div.container-b {
   width: 100px;
   float: right;
-  background-color: #e8f94e;
   text-align: right;
   min-width:20vw;
+  margin: 5px;
 }
