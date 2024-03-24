@@ -21,9 +21,10 @@ body {
 }
 
 main {
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.436);
   width: 95vw;
-  height: 225vh;
+  height: auto;
   margin: auto;
   border-radius: 10px;
   padding: 10px;
@@ -37,25 +38,18 @@ h1 {
 }
 
 img {
-  width: 90px;
+  width: 88px;
   border-radius: 10px;
-  margin: 3px;
 }
 
-div.container-a {
-  width: 100px;
-  float:left;
-  text-align: left;
-  min-width:20vw;
-  margin-left: -5px;
+div.container {
+  text-align: center;
 }
 
 div.text {
-  background-color: rgba(255, 255, 255, 0.577);
-  width: 38%;
-  float: left;
-  margin-left: 5px;
+  background-color: rgba(255, 255, 255, 0.755);
   margin-top: 5px;
+  margin-bottom: 5px;
   padding: 5px;
   text-align: center;
   font-size: 1em;
@@ -63,15 +57,13 @@ div.text {
 }
 
 .buttons {
-  background-color: rgba(255, 255, 255, 0.577);
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 1.2em;
   text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.589);
   width: 100%;
-  float: inline-start;
-  margin: 10px;
-  margin-left: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
@@ -92,12 +84,4 @@ div.text {
 .buttons button:hover {
   background-color: #e8f94e;
   border-radius: 5px;
-}
-
-div.container-b {
-  width: 100px;
-  float: right;
-  text-align: right;
-  min-width:20vw;
-  margin: 5px;
 }
